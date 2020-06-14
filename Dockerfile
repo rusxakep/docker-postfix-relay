@@ -1,6 +1,5 @@
-FROM tiredofit/alpine:3.12
-LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
-
+FROM rusxakep/alpine:3.12
+LABEL maintainer="Mikhail Baykov (mike at baikov dot com)"
 
 ## Set defaults
 ENV ENABLE_SMTP=FALSE \

@@ -1,9 +1,9 @@
-# hub.docker.com/r/tiredofit/postfix-relay
+# hub.docker.com/r/rusxakep/postfix-relay
 
-[![Build Status](https://img.shields.io/docker/cloud/build/tiredofit/postfix-relay.svg)](https://hub.docker.com/r/tiredofit/postfix-relay)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/postfix-relay.svg)](https://hub.docker.com/r/tiredofit/postfix-relay)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/postfix-relay.svg)](https://hub.docker.com/r/tiredofit/postfix-relay)
-[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/postfix-relay.svg)](https://microbadger.com/images/tiredofit/postfix-relay)
+[![Build Status](https://img.shields.io/docker/cloud/build/rusxakep/postfix-relay.svg)](https://hub.docker.com/r/rusxakep/postfix-relay)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rusxakep/postfix-relay.svg)](https://hub.docker.com/r/rusxakep/postfix-relay)
+[![Docker Stars](https://img.shields.io/docker/stars/rusxakep/postfix-relay.svg)](https://hub.docker.com/r/rusxakep/postfix-relay)
+[![Docker Layers](https://images.microbadger.com/badges/image/rusxakep/postfix-relay.svg)](https://microbadger.com/images/rusxakep/postfix-relay)
 
 
 # Introduction
@@ -17,6 +17,7 @@ This container uses Alpine:3.12 as a base.
 # Authors
 
 - [Dave Conroy](https://github.com/tiredofit)
+- [Mikhail Baykov](https://github.com/rusxakep)
 
 # Table of Contents
 
@@ -39,11 +40,11 @@ This image will need to connect to an external SMTP Server with user authenticat
 
 # Installation
 
-Automated builds of the image are available on [Registry](https://hub.docker.com/r/tiredofit/postfix-relay) and is the recommended method of installation.
+Automated builds of the image are available on [Registry](https://hub.docker.com/r/rusxakep/postfix-relay) and is the recommended method of installation.
 
 
 ```bash
-docker pull tiredofit/postfix-relay
+docker pull rusxakep/postfix-relay
 ```
 
 # Quick Start
