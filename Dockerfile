@@ -8,12 +8,12 @@ ENV ENABLE_SMTP=FALSE \
 ## Dependencies Setup
 RUN apk update && \
     apk add \
-        openssl \
-        libsasl \
         cyrus-sasl-plain \
+        libsasl \
+        mailx \
+        openssl \
         pflogsumm \
         postfix \
-        mailx \
         py-pip \
         rsyslog && \
     \
